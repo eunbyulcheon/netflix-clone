@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Banner = ({ movie }) => {
-	console.log('movie?', movie);
 	return (
 		<BannerBackground
 			style={{
@@ -26,7 +25,7 @@ const BannerBackground = styled.div`
 	align-items: flex-start;
 	gap: 10px;
 	padding-left: 4%;
-	background-position: center;
+	background-position: 50%;
 	color: #fff;
 
 	&::before {
