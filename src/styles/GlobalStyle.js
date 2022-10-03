@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     background-color: #000;
+    font-family: 'Archivo', sans-serif;
   }
 
   button, input {
