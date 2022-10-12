@@ -28,7 +28,7 @@ const MovieSlide = ({ movies }) => {
 		<>
 			<Carousel infinite={true} partialVisible={true} responsive={responsive}>
 				{movies.map((item) => (
-					<MovieCard key={item.id} item={item} image={item.poster_path} />
+					<MovieCard key={item.id} item={item} image={item.backdrop_path} />
 				))}
 			</Carousel>
 		</>
